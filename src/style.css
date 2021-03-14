@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+}
+
+.container {
+  padding: 0 2.5%;
+}
+
+
+.chat-container {
+  background-color: #F1F1F1;
+  color: #DAAD8F;
+  height: 300px;
+  width: 800px;
+  display: block;
+  overflow:auto;
+
+}
+
+.message-container {
+  display: block;
+}
+.user {
+  display: inline-block;
+  font-weight: 600;
+}
+
+.message {
+  display: inline-block;
+}
+/* #F1F1F1 */
+
+/* #DAAD8F */
+
+.profile-container {
+  background-color: #fafafa;
+  background-color: rgba(var(--b3f,250,250,250),1);
+  border-radius: 50%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: block;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  overflow: hidden;
+  position: relative;
+}
